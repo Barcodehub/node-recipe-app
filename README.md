@@ -25,9 +25,12 @@ Add the api key to the `API_KEY` variable in the .env file
 ## BD - Prisma Setup:
 - Create a new database instance postgreSQL.
 - Replace the DATABASE_URL in the .env file with a connection string of your instance. `DATABASE_URL="postgresql://username:password@localhost:5432/recipe-app-db"`
-- Initialize Prisma and generate the Prisma client: 
- `npx prisma init
-  npx prisma generate`
+- Initialize Prisma and generate the Prisma client:
+  
+```
+  npx prisma init
+  npx prisma generate
+```
 
 ## Start the backend server:
 `npm start`
