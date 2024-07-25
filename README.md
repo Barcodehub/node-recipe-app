@@ -20,7 +20,7 @@ This is the backend service for the Recipe Explorer application. It provides a R
 
 ## Spoonacular API:
 
-Add the api key to the API_KEY variable in the .env file
+Add the api key to the `API_KEY` variable in the .env file
 
 ## BD - Prisma Setup:
 - Create a new database instance postgreSQL.
